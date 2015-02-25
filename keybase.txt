@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/vjurcic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://viktor.jurcic.me
+  * I am vjurcic (https://keybase.io/vjurcic) on keybase.
+  * I have a public key with fingerprint AF24 72B5 8F1A D839 62C8  1AA1 6A08 1399 DDAD 1FB2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "af2472b58f1ad83962c81aa16a081399ddad1fb2",
+            "host": "keybase.io",
+            "key_id": "6A081399DDAD1FB2",
+            "uid": "3eec638f258f8da80c1709b1cccf0719",
+            "username": "vjurcic"
+        },
+        "service": {
+            "hostname": "viktor.jurcic.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424887162,
+    "expire_in": 157680000,
+    "prev": null,
+    "seqno": 1,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMR4K/ORzIf4KUaMpw98S2IIecdbVa2UlJ9SqWRVrZSck5maVwJi5SXm
+pipZKWWnViYlFqfqZeYr5OWnpOplFStA1egolaUWFWfm5wFVGeiZ65kr1eqAlIM0
+p2XmpacWFRRlgsxSSkwzMjE3SjK1SDNMTLEwtjQzSrYwTEw0NEs0sDA0trRMSUlM
+MUxLMgIamZFfXIJiqxLYzPjMFKComSNEvYuLo4uhmxNIfSlYwjg1NdnM2CLNCGiF
+RUqihUGyobmBZZJhcnJymoG5oSVIYXFqEdRLZVmlRcmZySDnAgXLMpNTQU4G2QxT
+kJldkl+kB1GmBxTSUSooyi/JT87PAcpmlJQUWIE0l1QWgFSXpybFQ82JT8rMSwF6
+HTlsDIEqk0syQQYbmhiZWFiYG5oZ6SilVhRkFqXGZ4JUmJqbWRgAAcia1DIlq7zS
+nByQ2wrz8oGyQIsS04H2FGem5yWWlBalKtV2MsqwMDAyMbCxMoGij4GLUwAWqbd+
+s//ha2YWVHjyuUd06Xnv0zM3P53pU8IRqP5W2vfo9ISGmR4i0w7XNq9NDEhr8F5x
+cifPBi1jsaXfjGVSX8QxVMut7HwVbjv9scLy85Wi9cd7FH9rtzdlb4+WeDnHpyT2
+m8hN/n/5Mi8eyz+7vG6vs9PJS1/1NfdJ/eJNf3Jwib7x2pAH5UXnDmz99EF+bnGt
+yQ15+TA160KFv7uTJjJtuLB3N6uBz4Vdq0XYuVpXMNw61s3z9tuZDcmv3096pH8q
+nafQ/+zhRxePCRcZHt3O9HNDi8ocwyO7uBWmrTVxNLI/eSH8e3bKzDcfrm6PK7N7
+wBn05HVDkOac57xMwpy8+4ySfhe31PhERTvVn5t2w14YAA==
+=tFbU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vjurcic
+
+==================================================================
