@@ -219,9 +219,33 @@ hr {
 
 .btn-github .icon {
   opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
+  background: url("../images/icons/blacktocat.png") 0 0 no-repeat;
 }
 
+.btn-keybase .icon {
+  opacity: 0.6;
+  background: url("../images/icons/key.ico") 0 0 no-repeat;
+}
+
+.btn-bitbucket .icon {
+  opacity: 0.6;
+  background: url("../images/icons/bucket.ico") 0 0 no-repeat;
+}
+
+.btn-stackoverflow .icon {
+  opacity: 0.6;
+  background: url("../images/icons/stack.ico") 0 0 no-repeat;
+}
+
+.btn-linkedin .icon {
+  opacity: 0.6;
+  background: url("../images/icons/in.ico") 0 0 no-repeat;
+}
+
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/icons/bird.ico") 0 0 no-repeat;
+}
 /* Links
    a, a:hover, a:visited
 */
