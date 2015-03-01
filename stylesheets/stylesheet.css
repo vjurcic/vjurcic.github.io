@@ -250,6 +250,27 @@ a {
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
+/* Footer, <footer>
+   footer       - container
+   copyright    - copyright info
+*/
+
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top: 1px dashed #b5e853;
+  padding: 20px 0;
+  margin: 50px 0 0 0;
+}
+
+footer .copyright {
+  font-size: 12px;
+  font-weight: 300;
+  color: #666;
+  text-align: right;
+  padding: 0 10px 0 0;
+}
+
 /* Clearfix */
 
 .cf:before, .cf:after {
