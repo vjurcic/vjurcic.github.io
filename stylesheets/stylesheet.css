@@ -39,7 +39,7 @@ header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   border-bottom: 1px dashed #b5e853;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   margin: 0 0 40px 0;
 }
 
@@ -71,7 +71,7 @@ header h2 {
 #downloads .btn {
   display: inline-block;
   text-align: center;
-  margin: 0;
+  margin: 2px;
 }
 
 /* Main Content
@@ -215,35 +215,30 @@ hr {
   height: 16px;
   margin: 1px 8px 0 0;
   float: left;
+  opacity: 0.6;
 }
 
 .btn-github .icon {
-  opacity: 0.6;
   background: url("../images/icons/blacktocat.png") 0 0 no-repeat;
 }
 
 .btn-keybase .icon {
-  opacity: 0.6;
   background: url("../images/icons/key.ico") 0 0 no-repeat;
 }
 
 .btn-bitbucket .icon {
-  opacity: 0.6;
   background: url("../images/icons/bucket.ico") 0 0 no-repeat;
 }
 
 .btn-stackoverflow .icon {
-  opacity: 0.6;
   background: url("../images/icons/stack.ico") 0 0 no-repeat;
 }
 
 .btn-linkedin .icon {
-  opacity: 0.6;
   background: url("../images/icons/in.ico") 0 0 no-repeat;
 }
 
 .btn-twitter .icon {
-  opacity: 0.6;
   background: url("../images/icons/bird.ico") 0 0 no-repeat;
 }
 /* Links
