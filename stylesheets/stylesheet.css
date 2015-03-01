@@ -3,17 +3,21 @@ body {
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
-  font: 16px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 20px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* General & 'Reset' Stuff */
 
 .container {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 95%;
+  max-width: 750px;
+  margin: auto auto;
+}
+
+p {
+    margin: 0 0 10px 0;
 }
 
 section {
@@ -68,7 +72,7 @@ header h2 {
   color: #666;
 }
 
-#downloads .btn {
+#social .btn {
   display: inline-block;
   text-align: center;
   margin: 2px;
@@ -191,6 +195,10 @@ hr {
 .btn {
   display: inline-block;
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: -moz-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: -ms-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: -o-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
   padding: 8px 18px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);
@@ -207,6 +215,9 @@ hr {
 
 .btn:hover {
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  background: -moz-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  background: -ms-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  background: -o-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
 
 .btn .icon {
@@ -245,9 +256,25 @@ hr {
    a, a:hover, a:visited
 */
 
+unl {
+    text-decoration: underline;
+}
+
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-decoration: none;
+}
+
+#main_content a:hover,
+#main_content a:focus {
+  color: #6fcfff;
+  text-decoration: underline;
+}
+
+#main_content a:visited {
+  color: #006090;
+  text-shadow: none;
 }
 
 /* Footer, <footer>
