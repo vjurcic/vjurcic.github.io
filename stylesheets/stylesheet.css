@@ -1,19 +1,35 @@
+html {
+    height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
+  height: 100%;
   font-size: 14px;
   line-height: 20px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* General & 'Reset' Stuff */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px;
+}
 
-.container {
+
+.container, .header-container {
   width: 95%;
   max-width: 750px;
   margin: auto auto;
+}
+
+.container {
+  padding: 0 0 50px 0;
 }
 
 p {
@@ -256,7 +272,7 @@ hr {
    a, a:hover, a:visited
 */
 
-unl {
+.unl {
     text-decoration: underline;
 }
 
@@ -285,9 +301,11 @@ a {
 footer {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
+  position: relative;
+  height: 49px;
   border-top: 1px dashed #b5e853;
-  padding: 20px 0;
-  margin: 50px 0 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 footer .copyright {
@@ -295,7 +313,7 @@ footer .copyright {
   font-weight: 300;
   color: #666;
   text-align: right;
-  padding: 0 10px 0 0;
+  padding: 10px 10px 0 0;
 }
 
 /* Clearfix */
