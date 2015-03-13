@@ -268,6 +268,10 @@ hr {
 .btn-twitter .icon {
   background: url("../images/icons/bird.ico") 0 0 no-repeat;
 }
+
+.btn-ddg .icon {
+  background: url("../images/icons/ddg.ico") 0 0 no-repeat;
+}
 /* Links
    a, a:hover, a:visited
 */
